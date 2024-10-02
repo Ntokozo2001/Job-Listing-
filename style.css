@@ -1,0 +1,180 @@
+/* General styles for the entire application */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Adjust the font family as needed */
+    background-color: #f0f0f0;
+  }
+  
+  h1, h2 {
+    font-family: 'Verdana', sans-serif; /* Desired font family for headers */
+    color: #333;
+  }
+  
+  a {
+    color: #11ad99;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #11ad99;
+    text-decoration: underline;
+  }
+  
+  /* Header Styles */
+  header {
+    background-color: #11ad99;
+    color: white;
+    padding: 20px;
+    text-align: left;
+  }
+  
+  header h1 {
+    display: inline-block;
+    font-size: 24px;
+    margin: 0;
+  }
+  
+  header a {
+    color: white;
+    margin-left: 20px;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
+    background-color: #11ad99;
+    border-radius: 5px;
+  }
+  
+  header a:hover {
+    background-color: #11ad99;
+  }
+
+
+  /* Form Modal Styles */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .modal form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .modal form label {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .modal form input, 
+  .modal form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal form button {
+    background-color: #11ad99;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .modal form button:hover {
+    background-color: #11ad99;
+  }
+  
+  /* Job List Styles */
+  .job-list {
+    padding: 30px;
+  }
+  
+  .job-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .job-list table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .job-list th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .job-list th {
+    background-color: #11ad99;
+    color: white;
+  }
+  
+  .job-list td a {
+    background-color: #11ad99;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .job-list td a:hover {
+    background-color: #11ad99;
+  }
+  
+  /* Add Job Form Styles */
+  .add-job-form {
+    padding: 30px;
+  }
+  
+  .add-job-form h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .add-job-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-job-form form label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .add-job-form form input, 
+  .add-job-form form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-job-form form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .add-job-form form button {
+    background-color: t#11ad99;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-job-form form button:hover {
+    background-color: #11ad99;
+  }
+  
