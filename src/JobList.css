@@ -1,0 +1,36 @@
+/* Job List Styles */
+.job-list {
+    padding: 30px;
+  }
+  
+  .job-list table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .job-list table, th, td {
+    border: 1px solid #ddd;
+  }
+  
+  .job-list th, td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .job-list th {
+    background-color: #11ad99;
+    color: white;
+  }
+  
+  .job-list td a {
+    background-color: #11ad99;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .job-list td a:hover {
+    background-color: #11ad99;
+  }
+  

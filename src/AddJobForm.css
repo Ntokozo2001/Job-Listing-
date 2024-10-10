@@ -1,0 +1,48 @@
+/* Add Job Form Styles */
+.add-job-form {
+    padding: 30px;
+  }
+  
+  .add-job-form h2 {
+    color: #333;
+    text-align: center;
+  }
+  
+  .add-job-form form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .add-job-form form label {
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .add-job-form form input, 
+  .add-job-form form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .add-job-form form input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  .add-job-form form button {
+    background-color: t#11ad99;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .add-job-form form button:hover {
+    background-color: #11ad99;
+  }
+  

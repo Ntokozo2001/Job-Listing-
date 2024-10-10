@@ -29,15 +29,25 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <header>
+      <nav>
+          <img src="JRLogo.png" alt="Job Recruit Logo" class="logo">
+          <ul>
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">Find Job</a></li>
+              <li><a href="#">Add Job</a></li>
+          </ul>
+      </nav>
+  </header>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+  <main>
+      <div class="welcome-container">
+          <h1>Welcome to Job Recruits</h1>
+          <div class="search-container">
+              <input type="text" placeholder="Search for jobs..." class="search-input">
+              <button class="search-button">Search</button>
+          </div>
+      </div>
+  </main>
   </body>
 </html>

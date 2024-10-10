@@ -1,13 +1,84 @@
+/* Styling for the body and background */
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: Arial, sans-serif;
+  background: url('backgroundpic.png') no-repeat center center fixed;
+  background-size: cover;
+  opacity: 0.9; /* Makes the background image slightly faded */
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* Header and Navbar */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8); /* Slight background for nav */
+}
+
+.logo {
+  width: 100px;
+  height: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 20px;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 18px;
+}
+
+nav ul li a.active {
+  color: red; /* Red color for the active page */
+}
+
+/* Welcome Text */
+.welcome-container {
+  text-align: center;
+  padding-top: 150px;
+}
+
+h1 {
+  color: black;
+  font-weight: bold;
+  font-size: 36px;
+}
+
+/* Search Bar */
+.search-container {
+  margin-top: 20px;
+}
+
+.search-input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 15px; /* Rounded button edges */
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #555; /* Button hover effect */
 }
